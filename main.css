@@ -1,0 +1,93 @@
+/* custom font 
+    @font-face {
+       font-family: 'ubuntu';
+       src: url(https://fonts.google.com/specimen/Ubuntu);
+       font-weight: normal;
+      }
+*/
+/* across site styles */
+  html {
+     padding: 0;
+     color: black;
+     font-family: 'Ubuntu', sans-serif; 
+}
+
+/* site header */
+  header {
+    margin: 0;
+}
+  h1 {
+     font-size: 300%;
+     text-align: center;
+     margin-bottom: 0;
+  }
+  nav {
+     text-align: center;
+     display: inline;
+     border: 0px;
+     margin: 0;
+     margin-top: 0px;
+     margin-left: 0;
+     margin-right: 0;
+     margin-bottom: 0px;
+     padding-top: 0px;
+     padding-left: 45%;
+     padding-right: 45%;
+     padding-bottom: 0;
+}
+  ul.main-nav {
+    padding-left: 0;
+    margin-top: 0;
+}
+  ul.main-nav li {
+     list-style-type: none;
+     text-align: center;
+     display: inline;
+     margin-top: 0;
+     margin-left: 0;
+     margin-right: 0;
+     margin-bottom: 0;
+     padding-top: 0px;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-bottom: 0;
+  }
+
+/* link interactions */
+ a {
+    display:inline-block;
+    padding:0px;
+    text-decoration: none;
+    color: black;
+}
+ a:visited {
+    color: black;
+}
+ a:hover {
+    color: skyblue;
+}
+ a:active {
+    color: black;
+}
+ a:onclick {
+    color: #696969;
+}
+
+/* home body */
+  #content {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+  #content img {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    width: 80%;
+    max-width: 1200px;
+}
