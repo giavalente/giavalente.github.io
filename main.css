@@ -91,3 +91,10 @@
     width: 80%;
     max-width: 1200px;
 }
+
+/* footer */
+  #footer p {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
