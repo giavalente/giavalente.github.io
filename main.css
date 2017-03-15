@@ -5,14 +5,35 @@
        font-weight: normal;
       }
 */
-/* across site styles */
+/* Across-site styles */
   html {
      padding: 0; 
      color: black;
      font-family: 'Ubuntu', sans-serif; 
 }
 
-/* site header */
+/* Skip navigation to main-content access */
+.skip {
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+        height: 1px;
+        width: 1px;
+        text-align: left;
+        overflow: hidden;
+    }
+    
+    a.skip:active, 
+    a.skip:focus, 
+    a.skip:hover {
+        left: 0; 
+        top: 0;
+        width: auto; 
+        height: auto; 
+        overflow: visible; 
+    }
+
+/* Site header */
   header {
     margin: 0;
 }
@@ -21,6 +42,29 @@
      text-align: center;
      margin-bottom: 0;
   }
+
+/* Make name rainbow scroll 
+Pink
+ a {
+    color: black;
+}
+ a:visited {
+    color: black;
+}
+ a:hover {
+    color: #c686eb;
+}
+Orange
+Yellow/golden
+Yellow-green
+Mint
+Teal
+Blue
+Periwinkle
+Lavendar
+Pink
+*/
+
   nav {
      text-align: center;
      display: inline;
@@ -53,7 +97,7 @@
      padding-bottom: 0;
   }
 
-/* link interactions */
+/* Link interactions */
  a {
     display:inline-block;
     padding:0px;
@@ -73,28 +117,28 @@
     color: #696969;
 }
 
-/* home body */
-  #content {
+/* Main body */
+  .content {
     margin-top: 0px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 0px; 
     margin-bottom: 0px;
     padding-top: 10px;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
-    width: 100%;
+    width: 100%; 
 }
-  img {
-    margin-left: 10%;
-    margin-right: 10%;
+  img.content { 
+    margin-left: 10%; 
+    margin-right: 10%; 
     margin-bottom: 50px;
-    width: 80%;
+    width: 80%; 
     max-width: 1200px;
 }
 
-/* footer */
-  #footer p {
+/* Footer */
+  .footer {
     margin: auto;
     text-align: center;
     padding-bottom: 20px;
