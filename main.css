@@ -102,10 +102,10 @@ a:hover {
 Pink #F77685 
 Orange #FF9B55
 Yellow 	#FFEA51
-Yellow-green 	#BDC442
+Lime 	#BDC442
 Green #74AA47
 Teal #56BC75
-Blue #3EA5C4
+Blue #71BED6
 Periwinkle #757DEA
 Lavendar #B159FF
 Pink2 #E57784 */ 
@@ -129,7 +129,7 @@ a.teal:hover {
     color:#56BC75;
 }
 a.blue:hover {
-    color:#3EA5C4;
+    color:#71BED6;
 }
 a.periwinkle:hover {
     color:#757DEA;
