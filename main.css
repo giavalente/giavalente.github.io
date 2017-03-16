@@ -43,28 +43,6 @@
      margin-bottom: 0;
   }
 
-/* Make name rainbow scroll 
-Pink
- a {
-    color: black;
-}
- a:visited {
-    color: black;
-}
- a:hover {
-    color: #c686eb;
-}
-Orange
-Yellow/golden
-Yellow-green
-Mint
-Teal
-Blue
-Periwinkle
-Lavendar
-Pink
-*/
-
   nav {
      text-align: center;
      display: inline;
@@ -102,19 +80,65 @@ Pink
     display:inline-block;
     padding:0px;
     text-decoration: none;
+}
+a:link {
+    color: black;
+} 
+a:visited {
     color: black;
 }
- a:visited {
-    color: black;
-}
- a:hover {
-    color: skyblue;
-}
+a:hover {
+    color: skyblue; 
+} 
  a:active {
     color: black;
-}
+} 
  a:onclick {
     color: #696969;
+}
+/* Make name rainbow scroll */
+
+/* Color Palette 
+Pink #F77685 
+Orange #FF9B55
+Yellow 	#FFEA51
+Yellow-green 	#BDC442
+Green #74AA47
+Teal #56BC75
+Blue #3EA5C4
+Periwinkle #757DEA
+Lavendar #B159FF
+Pink2 #E57784 */ 
+
+a.pink:hover {
+    color:#F77685;
+}
+a.orange:hover {
+    color:#FF9B55;
+}
+a.yellow:hover {
+    color:#FFEA51;
+}
+a.lime:hover {
+    color:#BDC442;
+}
+a.green:hover {
+    color:#74AA47
+}
+a.teal:hover {
+    color:#56BC75;
+}
+a.blue:hover {
+    color:#3EA5C4;
+}
+a.periwinkle:hover {
+    color:#757DEA;
+}
+a.lavender:hover {
+    color:#B159FF;
+}
+a.pink2:hover {
+    color:#E57784;
 }
 
 /* Main body */
