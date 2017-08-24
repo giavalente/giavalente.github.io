@@ -1,4 +1,4 @@
-/* custom font 
+/* custom font
     @font-face {
        font-family: 'ubuntu';
        src: url(https://fonts.google.com/specimen/Ubuntu);
@@ -7,9 +7,9 @@
 */
 /* Across-site styles */
   html {
-     padding: 0; 
+     padding: 0;
      color: black;
-     font-family: 'Ubuntu', sans-serif; 
+     font-family: 'Ubuntu', sans-serif;
 }
 
 /* Skip navigation to main-content access */
@@ -22,20 +22,23 @@
         text-align: left;
         overflow: hidden;
     }
-    
-    a.skip:active, 
-    a.skip:focus, 
+
+    a.skip:active,
+    a.skip:focus,
     a.skip:hover {
-        left: 0; 
+        left: 0;
         top: 0;
-        width: auto; 
-        height: auto; 
-        overflow: visible; 
+        width: auto;
+        height: auto;
+        overflow: visible;
     }
 
 /* Site header */
   header {
     margin: 0;
+}
+  .header {
+    margin-top: 40px;
 }
   h1 {
      font-size: 300%;
@@ -83,23 +86,23 @@
 }
 a:link {
     color: black;
-} 
+}
 a:visited {
     color: black;
 }
 a:hover {
-    color: skyblue; 
-} 
+    color: skyblue;
+}
  a:active {
     color: black;
-} 
+}
  a:onclick {
     color: #696969;
 }
 /* Make name rainbow scroll */
 
-/* Color Palette 
-Pink #F77685 
+/* Color Palette
+Pink #F77685
 Orange #FF9B55
 Yellow 	#FFEA51
 Lime 	#BDC442
@@ -108,7 +111,7 @@ Teal #56BC75
 Blue #71BED6
 Periwinkle #757DEA
 Lavendar #B159FF
-Pink2 #E57784 */ 
+Pink2 #E57784 */
 
 a.pink:hover {
     color:#F77685;
@@ -145,20 +148,32 @@ a.pink2:hover {
   .content {
     margin-top: 0px;
     margin-left: 0px;
-    margin-right: 0px; 
+    margin-right: 0px;
     margin-bottom: 0px;
     padding-top: 10px;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
-    width: 100%; 
+    width: 100%;
 }
-  img.content { 
-    margin-left: 10%; 
-    margin-right: 10%; 
+  img.content {
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 50px;
-    width: 80%; 
+    width: 80%;
     max-width: 1200px;
+}
+  #about {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    width: 80%;
+    max-width: 1200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-left: 8px;
 }
 
 /* Footer */
