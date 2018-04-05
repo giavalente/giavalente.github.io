@@ -1,1 +1,85 @@
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Gia Valente Art</title>
+        <meta name="description" content="Web developer and installation artist in Seattle, WA.">
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+    <!-- Google Analytics Code -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-90361105-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script>
+      var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+}
+    </script>
+  </head>
+  <body>
+    <!-- Skip to content access -->
+    <a href="#main-content" class="skip">Skip to Content</a>
+    <!-- Page header -->    <div class="header">
+    <!-- OMG make name rainbow when scroll across, just on art page -->
+   <!--   <h1>GIA VALENTE</h1> -->
+
+      <h1 class="header"><a class="pink" href="#">G</a><a class="yellow" href="#">I</a><a class="lime" href="#">A</a> <a class="blue" href="#">V</a><a class="orange" href="#">A</a><a class="green" href="#">L</a><a class="pink2" href="#">E</a><a class="teal" href="#">N</a><a class="periwinkle" href="#">T</a><a class="lavender" title="iseerainbowseverywhere" href="#">E</a></h1>
+    <!-- Navigation bar with name, home, contact, github, art -->
+        <nav>
+                <ul class="main-nav">
+                    <li><a href="http://giavalente.com">HOME</a></li> |
+                    <li><a href="mailto:valenteg@seattleu.edu?Subject=Hello Gia">CONTACT</a></li> |
+                    <li><a href="https://github.com/giavalente">GITHUB</a></li> |
+                    <li><a href="art.html">ART</a></li>
+                </ul>
+        </nav>
+    </div>
+    <!-- Main-content tag for skip to content access -->
+   <div id="main-content">
+    <!-- Art page content -->
+     
+   <div class="content">
+<img class="mySlides1" src="img/Rainbows See Me Everywhere/Rainbows See Me Everywhere Gia Valente 01.jpg" alt="photo by Katrina Herzog. Rainbows See Me Everywhere, Art Installation, May 2016. Gia Valente" style="width:100%">
+<img class="mySlides1" src="img/Thank You For Being Here/Thank You For Being Here Gia Valente 01.jpg" alt="Thank You For Being Here, Art Installation, August 2017. Gia Valente" style="width:100%">
+<img class="mySlides1" src="img/Not For Squares/Not For Squares Gia Valente 01.jpeg" alt="Not For Squares ;), Art Installation, July 2016. Gia Valente" style="width:100%">
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+
+    <!-- About Section and Links-->
+    <div id="about">
+      <p>Gia Valente is a genderqueer multidisciplinary artist with an affinity for paper, color, and visually overwhelming spaces.</p>
+      <p>Affiliates - <a href="http://www.tuf-seattle.com/">TUF</a> and <a href="https://www.lionsmain.org/">Lion's Main</a> </p>
+      <p>Press - <a href="http://www.seattleweekly.com/arts/seattles-queer-and-trans-art-collective-lions-main-shows-teeth-in-its-new-show/">Seattle Weekly May 2016</a>,
+        <a href="http://www.seattleweekly.com/arts/the-new-electronic-and-digital-media-focused-tuf-collective-says-luv-is-the-answer/">Seattle Weekly June 2016</a>,
+        <a href = "http://www.cityartsonline.com/articles/tuf-stuff">City Arts July 2017</a>
+       </p>
+      <p>Zines - <a href="http://www.tuf-seattle.com/zine/attachments/"</a>Attachments</a> and <a href="http://www.tuf-seattle.com/zine/pathosplaybook/">Pathos Playbook</a></p>
+     </div>
+    <!-- Footer -->
+    <div class="footer">
+
+    </div>
+   </div>
+  </body
+</html>
