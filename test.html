@@ -1,101 +1,207 @@
+<!DOCTYPE html>
 <html>
-  <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Gia Valente Art</title>
-        <meta name="description" content="Web developer and installation artist in Seattle, WA.">
-        <link rel="stylesheet" href="main.css">
-        <link rel="shortcut icon" href="favicon.ico">
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
-    <!-- Google Analytics Code -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-90361105-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <script>
-      var slideIndex = 1;
-showDivs(slideIndex);
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Gia Valente Art</title>
+<meta name="description" content="Installation artist and event designer in Seattle, WA.">
+<link rel="stylesheet" href="main.css">
+<link rel="shortcut icon" href="favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
 
-function plusDivs(n) {
-    showDivs(slideIndex += n);
+<!-- Google Analytics Code 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-90361105-1', 'auto');
+ga('send', 'pageview');
+</script>
+-->
+  
+<style>
+div.gallery {
+  border: 0px solid #ccc;
 }
-
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    x[slideIndex-1].style.display = "block";
+div.gallery:hover {
+   transform: scale(1.1);
 }
-    </script>
-  </head>
-  <body>
-    <!-- Skip to content access -->
-    <a href="#main-content" class="skip">Skip to Content</a>
-    <!-- Page header -->    <div class="header">
-    <!-- OMG make name rainbow when scroll across, just on art page -->
-   <!--   <h1>GIA VALENTE</h1> -->
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+  
+<body>
+<!-- Skip to content access -->
+<a href="#main-content" class="skip">Skip to Content</a>
+<!-- Page header --> <div class="header">
+<!-- OMG make name rainbow when scroll across, just on art page -->
+<!-- <h1>GIA VALENTE</h1> -->
+<h1 class="header"><a class="pink" href="#">G</a><a class="yellow" href="#">I</a><a class="lime" href="#">A</a> <a class="blue" href="#">V</a><a class="orange" href="#">A</a><a class="green" href="#">L</a><a class="pink2" href="#">E</a><a class="teal" href="#">N</a><a class="periwinkle" href="#">T</a><a class="lavender" title="iseerainbowseverywhere" href="#">E</a></h1>
 
-      <h1 class="header"><a class="pink" href="#">G</a><a class="yellow" href="#">I</a><a class="lime" href="#">A</a> <a class="blue" href="#">V</a><a class="orange" href="#">A</a><a class="green" href="#">L</a><a class="pink2" href="#">E</a><a class="teal" href="#">N</a><a class="periwinkle" href="#">T</a><a class="lavender" title="iseerainbowseverywhere" href="#">E</a></h1>
-    <!-- Navigation bar with name, home, contact, github, art -->
-        <nav>
-                <ul class="main-nav">
-                    <li><a href="http://giavalente.com">HOME</a></li> |
-                    <li><a href="mailto:valenteg@seattleu.edu?Subject=Hello Gia">CONTACT</a></li> |
-                    <li><a href="https://github.com/giavalente">GITHUB</a></li> |
-                    <li><a href="art.html">ART</a></li>
-                </ul>
-        </nav>
-    </div>
-    <!-- Main-content tag for skip to content access -->
-   <div id="main-content">
-    <!-- Art page content -->
-     
-   <div class="content">
-<img class="mySlides" src="img/Rainbows See Me Everywhere/Rainbows See Me Everywhere Gia Valente 01 RESIZE.jpg" alt="photo by Katrina Herzog. Rainbows See Me Everywhere, Art Installation, May 2016. Gia Valente" style="width:100%">
-<img class="mySlides" src="img/Jetpack001/Jetpack Gia Valente 01.jpg" alt="Jetpack Mirror Wall, Art Installation, October 2018. Gia Valente" style="width:100%">
-<img class="mySlides" src="img/Lodge Hugs Back/Lodge Hugs Back Gia Valente 02.jpg" alt="Lodge Hugs Back, Art Installation, August 2018. Gia Valente" style="width:100%">
-<img class="mySlides" src="img/UV Sunset/UV Sunset Gia Valente 01.jpg" alt="UV Sunset, Art Installation, June 2018. Gia Valente" style="width:100%">
-<img class="mySlides" src="img/VVVVVVVVV collaboration with Kem Sea/VVVVVVVVV Gia Valente 05 RESIZE.jpg" alt="VVVVVVVVV, Art Installation, August 2017. Gia Valente in collaboration with Kem Sea">
-<img class="mySlides" src="img/Disco Points/Disco Points Gia Valente 01.JPG" alt="Disco Points, Art Installation, March 2018. Gia Valente" style="width:100%">
-
-<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+<!-- Navigation bar with name, home, contact, github, art -->
+<nav>
+<ul class="main-nav">
+<li><a href="http://giavalente.com">HOME</a></li> |
+<li><a href="mailto:valenteg@seattleu.edu?Subject=Hello Gia">CONTACT</a></li> |
+<!-- <li><a href="https://github.com/giavalente">GITHUB</a></li> -->
+<li><a href="art.html">ART</a></li>
+</ul>
+</nav>
 </div>
-    </div>
-    
-    
- <div class="row">
-  <div class="column">
-    <img src="img/Rainbows See Me Everywhere/Rainbows See Me Everywhere Gia Valente 01 RESIZE.jpg">
-    <img src="img/Jetpack001/Jetpack Gia Valente 01.jpg">
-    <img src="img/Lodge Hugs Back/Lodge Hugs Back Gia Valente 02.jpg">
-    <img src="img/UV Sunset/UV Sunset Gia Valente 01.jpg">
-  </div>
-  <div class="column">
-    <img src="img/VVVVVVVVV collaboration with Kem Sea/VVVVVVVVV Gia Valente 05 RESIZE.jpg">
-    <img src="img/Disco Points/Disco Points Gia Valente 01.JPG">
-    <img src="img/It's Hard but I Try collaboration with Jax Braun/It's Hard but I Try Gia Valente 01.jpg">
-    <img src="img/True Colors/True Colors Gia Valente 01.jpg">
-  </div>
-  <div class="column">
-    <img src="img/Thank You For Being Here/Thank You For Being Here Gia Valente 01.jpg">
-    <img src="img/Beautiful Swimmers/Beautiful Swimmers Gia Valente 05.jpg">
-    <img src="img/Not For Squares/Not For Squares Gia Valente 01.jpeg">
-    <img src="img/It Only Takes 2 to Make a Network/It Only Takes 2 to Make a Network Gia Valente 01.jpg">
+
+<!-- Main-content tag for skip to content access -->
+<div id="main-content">
+
+<!-- Art page content -->
+<div class="content">
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/Rainbows See Me Everywhere/Rainbows See Me Everywhere Gia Valente 01 RESIZE.jpg">
+<img class="content" src ="img/Rainbows See Me Everywhere/Rainbows See Me Everywhere Gia Valente 01 RESIZE.jpg" alt="photo by Katrina Herzog. Rainbows See Me Everywhere, Art Installation, May 2016. Gia Valente"> </a>
+    <div class="desc">Rainbows See Me Everywhere May 2016</div>
   </div>
 </div>
-    <!-- Footer -->
-    <div class="footer">
 
-    </div>
-   </div>
-  </body
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/Jetpack001/Jetpack Gia Valente 01.jpg">
+<img class="content" src ="img/Jetpack001/Jetpack Gia Valente 01.jpg" alt="Jetpack Mirror Wall, Art Installation, October 2018. Gia Valente"></a>
+    <div class="desc">Jetpack Mirror Wall October 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/Lodge Hugs Back/Lodge Hugs Back Gia Valente 02.jpg">
+<img class="content" src ="img/Lodge Hugs Back/Lodge Hugs Back Gia Valente 02.jpg" alt="Lodge Hugs Back, Art Installation, August 2018. Gia Valente"> </a>
+    <div class="desc">Lodge Hugs Back August 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/UV Sunset/UV Sunset Gia Valente 01.jpg">
+<img class="content" src ="img/UV Sunset/UV Sunset Gia Valente 01.jpg" alt="UV Sunset, Art Installation, June 2018. Gia Valente"> </a>
+    <div class="desc">UV Sunset June 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/VVVVVVVVV collaboration with Kem Sea/VVVVVVVVV Gia Valente 05 RESIZE.jpg">
+<img class="content" src ="img/VVVVVVVVV collaboration with Kem Sea/VVVVVVVVV Gia Valente 05 RESIZE.jpg" alt="VVVVVVVVV, Art Installation, August 2017. Gia Valente in collaboration with Kem Sea"></a>
+    <div class="desc">VVVVVVVVV collaboration with Kem Sea August 2017</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/Disco Points/Disco Points Gia Valente 01.JPG">
+<img class="content" src ="img/Disco Points/Disco Points Gia Valente 01.JPG" alt="Disco Points, Art Installation, March 2018. Gia Valente"> </a>
+    <div class="desc">Disco Points March 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/It's Hard but I Try collaboration with Jax Braun/It's Hard but I Try Gia Valente 01.jpg">
+<img class="content" src ="img/It's Hard but I Try collaboration with Jax Braun/It's Hard but I Try Gia Valente 01.jpg" alt="It's Hard but I Try, Art Installation, March 2018. Gia Valente in collaboration with Jax Braun"> </a>
+    <div class="desc">It’s Hard but I Try collaboration with Jax Braun March 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/True Colors/True Colors Gia Valente 01.jpg">
+<img class="content" src ="img/True Colors/True Colors Gia Valente 01.jpg" alt="True Colors, Art Installation, May 2018. Gia Valente"> </a>
+    <div class="desc">True Colors May 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/Thank You For Being Here/Thank You For Being Here Gia Valente 01.jpg">
+<img class="content" src ="img/Thank You For Being Here/Thank You For Being Here Gia Valente 01.jpg" alt="Thank You For Being Here, Art Installation, August 2017. Gia Valente"> </a>
+    <div class="desc">Thank You For being Here August 2017</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/Beautiful Swimmers/Beautiful Swimmers Gia Valente 05.jpg">
+<img class="content" src ="img/Beautiful Swimmers/Beautiful Swimmers Gia Valente 05.jpg" alt="Beautiful Swimmers, Art Installation, July 2018. Gia Valente"> </a>
+    <div class="desc">Beautiful Swimmers July 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/Not For Squares/Not For Squares Gia Valente 01.jpeg">
+<img class="content" src ="img/Not For Squares/Not For Squares Gia Valente 01.jpeg" alt="Not For Squares ;), Art Installation, July 2016. Gia Valente"> </a>
+    <div class="desc">Not For Squares ;) July 2016</div>
+  </div> 
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/It Only Takes 2 to Make a Network/It Only Takes 2 to Make a Network Gia Valente 01.jpg">
+<img class="content" src ="img/It Only Takes 2 to Make a Network/It Only Takes 2 to Make a Network Gia Valente 01.jpg" alt="It Only Takes 2 to Make a Network, Art Installation, June 2016. Gia Valente"> </a>
+    <div class="desc">It Only Takes 2 to Make a Network June 2016</div>
+  </div> 
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/Gianni's Rose Friends/Gianni's Rose Friends Gia Valente 01.jpg">
+<img class="content" src ="img/Gianni's Rose Friends/Gianni's Rose Friends Gia Valente 01.jpg" alt="Gianni's Rose Friends, Art Installation, May 2017. Gia Valente"> </a>
+    <div class="desc">Gianni’s Rose Friends May 2017</div>
+  </div> 
+</div>
+
+<div class="clearfix"></div>
+<div style="padding:6px;">
+  
+<!-- About Section and Links-->
+<div id="about">
+<p> Gia Valente is a non-binary multidisciplinary artist with an affinity for paper, color, and creating visually overwhelming spaces.</p>
+<p> Affiliates - <a href="http://www.tuf-seattle.com/">TUF</a> and <a href="https://www.lionsmain.org/">Lion's Main</a> </p>
+</div>
+
+<!-- Footer -->
+</div>
+</div>
+
+</body>
 </html>
