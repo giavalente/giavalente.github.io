@@ -164,6 +164,13 @@ a.pink2:hover {
     width: 70%;
     max-width: 1200px;
 }
+  .biopic {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    width: 50%;
+    max-width: 1200px;
+}
   #about {
     margin-left: 10%;
     margin-right: 10%;
